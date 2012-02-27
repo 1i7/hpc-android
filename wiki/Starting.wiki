@@ -16,7 +16,7 @@
   # File -> Import...
   # SVN -> Checkout Projects from SVN -> Next
   # Create a new repository location -> Next
-  # В поле "Url" вписываем: https://tutu-android.googlecode.com/svn/trunk/
+  # В поле "Url" вписываем: https://hpc-android.googlecode.com/svn/trunk/
   # *В появившемся окне выбираем подпапку hpc-android* -> Next
   # Если всё сделано правильно, в новом окне будет доступен только пункт "Check out as a project in the workspace"
   # Все прочие настройки можно оставить без изменений, жмём Finish
