@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:orientation="vertical" 
+	android:id="@+id/linearLayout1" 
+	android:layout_height="fill_parent" 
+	android:layout_width="fill_parent">
+        
+<TextView 
+	android:text="Request Friend" 
+	android:textColor="#FF0000"
+	android:textSize="25dip"
+	android:id="@+id/textView3" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" android:layout_gravity="center_horizontal"/>
+
+<LinearLayout 
+	android:id="@+id/linearLayout2" 
+	android:layout_height="wrap_content" 
+	android:layout_width="fill_parent">
+	
+	<TextView 
+		android:id="@+id/nameRj1" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:text="@string/nameRj1"/>
+
+	<TextView 
+		android:id="@+id/idRj1" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:text="@string/idRj1"/>
+</LinearLayout>
+        
+<LinearLayout 
+	android:id="@+id/linearLayout3" 
+	android:layout_width="fill_parent" 
+	android:weightSum="1" 
+	android:layout_height="wrap_content" 
+	android:baselineAligned="false">
+            
+    <Button 
+    	android:text="Add" 
+    	android:id="@+id/buttAdd" 
+    	android:layout_height="35dip" 
+    	android:layout_width="80dip"/>
+    <Button 
+    	android:text="Reject" 
+    	android:id="@+id/buttReject" 
+    	android:layout_height="35dip" 
+    	android:layout_width="80dip"/>
+</LinearLayout>
+
+
+<LinearLayout 
+	android:id="@+id/linearLayout4" 
+	android:layout_height="wrap_content" 
+	android:layout_width="fill_parent">
+	
+	<TextView 
+		android:id="@+id/nameRj2" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:text="@string/nameRj2"/>
+
+	<TextView 
+		android:id="@+id/idRj2" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:text="@string/idRj2"/>
+</LinearLayout>
+        
+<LinearLayout 
+	android:id="@+id/linearLayout5" 
+	android:layout_width="fill_parent" 
+	android:weightSum="1" 
+	android:layout_height="wrap_content" 
+	android:baselineAligned="false">
+            
+    <Button 
+    	android:text="Add" 
+    	android:id="@+id/buttAdd" 
+    	android:layout_height="35dip" 
+    	android:layout_width="80dip"/>
+    <Button 
+    	android:text="Reject" 
+    	android:id="@+id/buttReject" 
+    	android:layout_height="35dip" 
+    	android:layout_width="80dip"/>
+</LinearLayout>
+
+</LinearLayout>

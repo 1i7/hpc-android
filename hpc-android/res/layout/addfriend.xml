@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+<TextView 
+	android:id="@+id/textView1" 
+	android:layout_height="wrap_content" 
+	android:layout_width="wrap_content" 
+	android:textAppearance="?android:attr/textAppearanceLarge" 
+	android:text="Add Friend" 
+	android:textColor="#FF0000"
+	android:textSize="25dip"
+	android:layout_gravity="center_horizontal"/>
+	
+<LinearLayout 
+	android:id="@+id/linearLayout2" 
+	android:layout_height="wrap_content" 
+	android:layout_width="fill_parent">
+        
+    <TextView 
+    	android:text="ID:" 
+    	android:id="@+id/textView2" 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"/>
+    	
+    <EditText 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content" 
+    	android:layout_weight="1" 
+    	android:id="@+id/editText1" 
+    	android:inputType="number">
+            <requestFocus></requestFocus>
+        </EditText>
+</LinearLayout>
+
+ <CheckBox 
+ 	android:text="Forbid getting my location?" 
+ 	android:id="@+id/checkForbid" 
+ 	android:layout_width="wrap_content" 
+ 	android:layout_height="wrap_content"/>
+
+ <Button
+     android:id="@+id/buttAdd"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:text="Add friend"
+     android:onClick="onClickAdd" />
+ 	
+</LinearLayout>

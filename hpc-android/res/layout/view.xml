@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayoutRegister"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:weightSum="1" 
+    android:baselineAligned="false" 
+    android:orientation="vertical">
+
+<ImageView
+	android:id="@+id/view"
+	android:src="@drawable/view"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent"
+	android:layout_gravity="center" />
+
+</LinearLayout>

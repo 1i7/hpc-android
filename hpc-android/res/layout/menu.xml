@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayoutMenu"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:weightSum="1" 
+    android:baselineAligned="false" 
+    android:orientation="vertical">
+    
+<TextView
+   android:id="@+id/textMenu"
+   android:textAppearance="?android:attr/textAppearanceLarge" 
+   android:text="@string/Menuline" 
+   android:textSize="60sp"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:textColor="#FFCC00"
+   android:textStyle="bold" 
+   android:layout_gravity="center_horizontal"
+android:layout_margin="10dp"/>
+
+<Button 
+   android:id="@+id/buttPInfo"
+   android:text="Personal Info"
+   android:textSize="20sp"
+   android:textColor="#473C8B"
+   android:layout_height="wrap_content"
+   android:layout_gravity="center_horizontal" 
+   android:layout_width="245dp"
+   android:onClick="onClickMenu" android:layout_margin="2dp"/>
+
+<Button
+   android:id="@+id/buttFrList" 
+   android:layout_gravity="center_horizontal" 
+   android:layout_height="wrap_content" 
+   android:text="Friends List" 
+   android:textSize="20sp" 
+   android:textColor="#473C8B"
+   android:layout_width="244dp"
+   android:onClick="onClickMenu" android:layout_margin="2dp"/>
+
+<Button 
+   android:layout_gravity="center_horizontal" 
+   android:id="@+id/buttAddFr"
+   android:layout_height="wrap_content" 
+   android:text="Add Friend" 
+   android:textColor="#473C8B"
+   android:layout_width="244dp" 
+   android:textSize="20sp"  
+   android:onClick="onClickMenu" android:layout_margin="2dp"/>
+
+<Button 
+   android:id="@+id/buttRqFr"
+   android:textColor="#473C8B"
+   android:layout_gravity="center_horizontal" 
+   android:layout_height="wrap_content" 
+   android:text="Requests to Friends" 
+   android:layout_width="243dp" 
+   android:textSize="20sp" 
+   android:onClick="onClickMenu" android:layout_margin="2dp"/>
+
+<LinearLayout
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" android:layout_margin="2dp" android:layout_gravity="center_horizontal">
+
+    <Button
+        android:id="@+id/buttView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickMenu"
+        android:text="clockView" android:layout_gravity="left" android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/buttClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickMenu"
+        android:text="clockScreen" android:layout_weight="1"/>
+
+</LinearLayout>
+
+</LinearLayout>
