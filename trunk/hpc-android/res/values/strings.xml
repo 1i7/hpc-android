@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Weclome Screen</string>
+    <string name="title_map">Map</string>
+    <string name="title_menu">Menu Screen</string>
+    <string name="title_pinfo">Personal Info</string>
+    <string name="title_addfriend">Add New Friend</string>
+    <string name="title_rqfriend">Request Friend</string>
+    <string name="title_frlist">Personal Info</string>
+    <string name="title_clock">Screen with Clock</string>
+    <string name="title_register">Register</string>
+    <string name="title_view">Clock View</string>    
+    <string name="firstline">Welcome!!!</string>
+    <string name="secondline">info</string>
+    <string name="line">prevScreenName</string>
+    <string name="Menuline"><b><i><u>Menu</u></i></b></string>
+    <string name="name1">Name 1</string>
+    <string name="id1">Id 1</string>
+    <string name="name2">Name 2</string>
+    <string name="id2">Id 2 </string>
+    <string name="nameRj1"> Name 1 </string>
+    <string name="idRj1">Id 1</string>
+    <string name="nameRj2"> Name 2</string>
+    <string name="idRj2">Id 2</string>
+    <string name="server">hpc.sadko.mobi</string>
+    <string name="server_admin">79207587601@hpc.sadko.mobi</string>
+    <string name="test_user">79160870091</string>
+    <string name="password_standart">1234</string>
+    <string name="text_loc">0</string>
+    <string name="RegistrationTitle">New User Registration:</string>
+    <string name="RegistrationNameTitle">You name (login):</string>
+    <string name="RegistrationPasswordTitle">Password</string>
+    <string name="RegistrationRegButtonTitle">Try to register...</string>
+    
+    
+</resources>
